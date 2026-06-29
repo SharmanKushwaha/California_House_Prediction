@@ -20,6 +20,19 @@ Predicts median house prices in California using the 1990 Census dataset. Built 
 - Pandas (data loading only)
 - Matplotlib (visualizations)
 
+## 📈 Results
+| Metric | Value |
+|:---|:---|
+| **RMSE** | **$75,558** |
+| MSE | 0.571 |
+| Best Feature | MedInc (Median Income) |
+
+### 🔍 Key Insights
+- **Median Income** is the strongest predictor of house prices
+- **Location matters** - Latitude and Longitude have significant negative weights
+- **Rooms per household** positively correlates with higher prices
+- **Average rooms** negatively correlates - more rooms = denser/cheaper areas
+
 ## 🚀 How to Run
 ```bash
 git clone https://github.com/YOUR_USERNAME/california-housing-prediction.git
