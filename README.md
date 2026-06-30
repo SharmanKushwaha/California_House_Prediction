@@ -35,7 +35,7 @@ Predicts median house prices in California using the 1990 Census dataset. Built 
 
 ## 🚀 How to Run
 ```bash
-git clone https://github.com/SharmanKushwaha/California_House_Prediction.git
+git clone https://github.com/SharmanKushwaha/California_House_Prediction
 cd california-housing-prediction
 pip install -r requirements.txt
 python main.py
